@@ -26,39 +26,19 @@ a{
     margin: auto;
 }
 
-header{
-    background-color: rgb(245,245,245);
+.navbar__completa{
+    justify-content: flex-end;
+    align-items: baseline;
 }
 
-
-
-.header_logo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px;
+.link__color:hover{
+    color:  rgb(255, 145, 2) !important;
 }
 
-.header_nav{
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    align-items: center;
-}
-
-.header_lista{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-a:hover{
-    color:  rgb(255, 145, 2);
-}
-
-header a{
-    padding: 5px 10px;
-    font-weight: bold;
+.imagen__logo{
+    height: 100px;
+    width: 150px;
+    padding-top: 10px;
 }
 
 main{
@@ -119,8 +99,35 @@ footer{
     padding: 50px 12px;
 }
 
+.footer__parrafo{
+    margin: 0px;
+}
+
+.primera{
+    height: 60vh;
+}
+
+.segunda{
+    height: 60vh;
+}
+
+.tercera{
+    height: 60vh;
+}
 
 
+.carousel_index{
+    padding-top: 10px;
+}
+
+
+.boton_prev{
+    height: auto;
+}
+
+.boton_next{
+    height: auto;
+}
 
 /*------------------------------------nosotros----------------------------------------*/
 
@@ -151,9 +158,23 @@ footer{
     flex-direction: column;
 }
 
+.nosotros{
+    padding-top:100px;
+    padding-bottom: 100px;
+}
 
+.card_nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
 
+.card_nosotros img{
+    height: 150px;
+    width: 100%;
+}
 
 
 /*------------------------------------servicios----------------------------------------*/
@@ -191,6 +212,7 @@ footer{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-top:  20px;
 }
 
 .titulo_destinos{
@@ -210,6 +232,31 @@ footer{
     display: flex;
     flex-direction: column;
     padding: 12px;
+}
+
+.uno{
+    background-color:  rgb(220, 219, 217);
+}
+
+.dos{
+    background-color:  rgb(220, 219, 217);
+}
+
+.tres{
+    background-color:  rgb(220, 219, 217);
+}
+
+
+.card__servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__servicios img{
+    height: 150px;
+    width: 100%;
 }
 
 
@@ -287,6 +334,24 @@ img.camion6{
 
 
 
+
+
+.galeria_img img{
+    width: 100% !important;
+    height: 300px !important;
+    filter: brightness(70%);
+    }
+    
+    .galeria_img img:hover{
+        border: solid 5px rgb(255, 255, 255);
+        filter: brightness(100%);
+    }
+    .camion{
+        margin: 0px !important;
+        padding: 25px;
+    }
+
+
 /*------------------------------------contacto----------------------------------------*/
 
 
@@ -308,55 +373,38 @@ img.camion6{
     color: rgb(255, 255, 255);
 }
 
-
-form{
+.comunicate{
+    color: hsl(0, 0%, 50%);
+    font-weight: bold;
     text-align: center;
-    padding: 100px 0px;
+    padding: 100px 10px 10px 10px;
+    font-size: 2em;
+}
+
+.comunicate__parrafo{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
 
+.form_container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
-input{
-    height: 30px;
-    width: 300px;
-    text-align: center;
+.form_nombre{
     background-color: rgb(255, 231, 179);
     border: none;
 }
-
-textarea{
-    height: 150px;
-    width: 300px;
-    text-align: center;
+.form_mail{
     background-color: rgb(255, 231, 179);
     border: none;
 }
-
-button{ 
-    height: 30px;
-    width: 300px;
-    text-align: center;
-    background-color: rgb(255, 145, 2);
+.form_textarea{
+    background-color: rgb(255, 231, 179);
     border: none;
 }
-
-p.nombre{
-    padding: 10px 0px;
-}
-p.mail{ 
-    padding: 10px 0px;
-}   
-
-p.textarea{
-    padding: 10px 0px;
-}
-
-p.btn{
-    padding: 10px 0px;
-}
-
-
 
 .titulo_ubicacion{
     color: hsl(0, 0%, 50%);
@@ -384,39 +432,6 @@ p.btn{
 
 
 @media screen and (min-width:768px) {
-
-
-    header a {
-        font-weight: normal;
-        font-size: 16px;
-    }
-
-
-    .header{
-        display: flex;
-        height: 20vh;
-        align-items: baseline;
-        justify-content: space-between;
-    }
-
-    .header_logo{
-        width: 200px;
-        height: 20vh;
-    }
-
-    .header_lista {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-
-
-
-
-
-
-
 
 
 
@@ -466,15 +481,66 @@ p.btn{
 
 
 
+img.camion1{
+    padding: 5px 0px 5px;
+}
+
+.boton-enviar{
+    max-width: 500px;
+}
+
+
+
+
+
+.card_nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.card__servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    align-items: flex-start;
+}
 
 
 
 
 
 
+}
+/*
+@media screen and (max-width:768px) {
+.card_nosotros{
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__nosotros__uno{
+    padding-bottom: 30px;
+}
+
+.card__nosotros__dos{
+    padding-bottom: 30px;
+}
 
 
 
+
+
+/*
 .galeria_imagenes{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -508,8 +574,6 @@ grid-column: 2 span;
 
 
 
-
-
 input{
     width: 500px;
 }
@@ -518,11 +582,11 @@ textarea{
     width: 500px;
 }
 
-button{ 
+.btn_form{ 
     width: 500px;
 }
+*/
 
-}
 
 
 
