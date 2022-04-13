@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.nosotros_titulo, .card__nosotros, .servicios_titulo, .card__servicios, .card__servicios .card__servicios__24, .card__servicios .card__servicios__cross, .card__servicios .card__servicios__inversa, .galeria_titulo, .contacto_titulo, .main__index__titulo, .main__index .index_img .envios_titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 header .imagen__logo {
   height: 100px;
   width: 150px;
@@ -16,6 +28,432 @@ header .navbar__completa {
 
 header .link__color:hover {
   color: #ff9102 !important;
+}
+
+.nosotros_titulo {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(imagenes/bg-header-about.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/bg-header-about.jpg);
+  height: 100px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.nosotros {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.nosotros .parrafo_nosotros {
+  padding: 50px 12px;
+}
+
+.nosotros .aside_nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card__nosotros {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card__nosotros .card__nosotros__uno {
+  margin-bottom: 20px;
+}
+
+.card__nosotros .card__nosotros__dos {
+  margin-bottom: 20px;
+}
+
+.servicios_titulo {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(imagenes/edfgfg.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/edfgfg.png);
+  height: 100px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.card__servicios {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card__servicios .card__servicios__24 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.card__servicios .card__servicios__cross {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.card__servicios .card__servicios__inversa {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.card__servicios img {
+  height: 150px;
+  width: 100%;
+}
+
+.titulo_destinos {
+  color: gray;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  font-size: 2em;
+}
+
+.destinos__parrafo {
+  text-align: center;
+  padding: 20px 12px;
+}
+
+.img_provincia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 12px;
+}
+
+.galeria_titulo {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(imagenes/Storage1.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/Storage1.jpg);
+  height: 100px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.galeria_img img.camion1 {
+  padding: 20px 0px 5px;
+}
+
+.galeria_img img.camion2 {
+  padding: 5px 0px;
+}
+
+.galeria_img img.camion3 {
+  padding: 5px 0px;
+}
+
+.galeria_img img.camion4 {
+  padding: 5px 0px;
+}
+
+.galeria_img img.camion5 {
+  padding: 5px 0px;
+}
+
+.galeria_img img.camion6 {
+  padding: 5px 0px;
+}
+
+.galeria_img img {
+  width: 100% !important;
+  height: 300px !important;
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+}
+
+.galeria_img img:hover {
+  border: solid 5px white;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+.galeria_img .camion {
+  margin: 0px !important;
+  padding: 25px;
+}
+
+.video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contacto_titulo {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(imagenes/123415.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/123415.png);
+  height: 100px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.comunicate {
+  color: gray;
+  font-weight: bold;
+  text-align: center;
+  padding: 100px 10px 10px 10px;
+  font-size: 2em;
+}
+
+.comunicate__parrafo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.form_container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.form_container .form_nombre {
+  background-color: #ffe7b3;
+  border: none;
+}
+
+.form_container .form_mail {
+  background-color: #ffe7b3;
+  border: none;
+}
+
+.form_container .form_textarea {
+  background-color: #ffe7b3;
+  border: none;
+}
+
+.titulo_ubicacion {
+  color: gray;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  font-size: 2em;
+}
+
+.parrafo_video {
+  text-align: center;
+  padding: 20px 12px;
+}
+
+.mapa {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__index {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.main__index__titulo {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(imagenes/123.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/123.jpg);
+  height: 100px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.main__index .carousel_index {
+  padding-top: 10px;
+}
+
+.main__index .carousel_index .boton_prev {
+  height: auto;
+}
+
+.main__index .carousel_index .boton_next {
+  height: auto;
+}
+
+.main__index .carousel_index .primera {
+  height: 60vh;
+}
+
+.main__index .carousel_index .segunda {
+  height: 60vh;
+}
+
+.main__index .carousel_index .tercera {
+  height: 60vh;
+}
+
+.main__index .parrafo_index {
+  text-align: center;
+  padding: 100px 12px;
+}
+
+.main__index .index_img {
+  padding-top: 10px;
+}
+
+.main__index .index_img .envios_titulo {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(imagenes/123.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/123.png);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  background-color: #ff9102;
+  height: 30vh;
+  padding: 50px 12px;
+}
+
+footer .footer__parrafo {
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .aside_nosotros img {
+    padding-top: 50px;
+  }
+  .nosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .nosotros p {
+    padding: 30px;
+    font-size: large;
+  }
+  .destinos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .img_provincia {
+    height: 400px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .destinos__parrafo {
+    text-align: justify;
+  }
+  .titulo_destinos {
+    padding-top: 100px;
+  }
+  img.camion1 {
+    padding: 5px 0px !important;
+  }
+  .boton-enviar {
+    max-width: 500px;
+  }
+  .card__nosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .card__servicios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .card__servicios .card__servicios__24 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .card__servicios .card__servicios__cross {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .card__servicios .card__servicios__inversa {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 
 * {
@@ -45,506 +483,4 @@ main {
   max-width: 1400px;
   margin: auto;
 }
-
-main .index_titulo {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(imagenes/123.jpg);
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/123.jpg);
-  height: 100px;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-bottom: 10px;
-  color: white;
-}
-
-main .carousel_index {
-  padding-top: 10px;
-}
-
-main .carousel_index .boton_prev {
-  height: auto;
-}
-
-main .carousel_index .boton_next {
-  height: auto;
-}
-
-main .carousel_index .primera {
-  height: 60vh;
-}
-
-main .carousel_index .segunda {
-  height: 60vh;
-}
-
-main .carousel_index .tercera {
-  height: 60vh;
-}
-
-main .parrafo_index {
-  text-align: center;
-  padding: 100px 12px;
-}
-
-main .index_img {
-  padding-top: 10px;
-}
-
-main .index_img .envios_titulo {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(imagenes/123.png);
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/123.png);
-  height: 70vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: white;
-}
-
-main .main__index {
-  max-width: 1400px;
-  margin: auto;
-}
-
-main .main__index__titulo {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(imagenes/123.jpg);
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagenes/123.jpg);
-  height: 100px;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-bottom: 10px;
-  color: white;
-}
-
-footer {
-  text-align: center;
-  background-color: #ff9102;
-  height: 30vh;
-  padding: 50px 12px;
-}
-
-footer .footer__parrafo {
-  margin: 0px;
-}
 /*# sourceMappingURL=style.css.map */
-
-
-
-
-
-
-
-
-/********************************* abajo aun no esta anidado *********************************************************************
-
-
-/*------------------------------------nosotros----------------------------------------*/
-
-.nosotros_titulo{
-  background-image: linear-gradient(
-      0deg,
-      rgba(0,0,0,0.5),
-      rgba(0,0,0,0.5)
-  )  
-  ,url(imagenes/bg-header-about.jpg);
-  height: 100px;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 10px;
-  color: rgb(255, 255, 255);
-}
-
-.parrafo_nosotros{
-  padding: 50px 12px;
-}
-
-.aside_nosotros{
-  display: flex;
-  flex-direction: column;
-}
-
-.nosotros{
-  padding-top:100px;
-  padding-bottom: 100px;
-}
-
-.card_nosotros{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.card_nosotros img{
-  height: 150px;
-  width: 100%;
-}
-
-
-/*------------------------------------servicios----------------------------------------*/
-
-
-.servicios_titulo{
-  background-image: linear-gradient(
-      0deg,
-      rgba(0,0,0,0.5),
-      rgba(0,0,0,0.5)
-  )  
-  ,url(imagenes/edfgfg.png);
-  height: 100px;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 10px;
-  color: rgb(255, 255, 255);
-}
-
-.servicios_lista{
-  text-align: center;
-  padding: 50px 12px;
-}
-
-.servicios_parrafo{
-  text-align: center;
-  padding: 20px 12px;
-}
-
-.imagen_servicios{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding-top:  20px;
-}
-
-.titulo_destinos{
-  color: hsl(0, 0%, 50%);
-  font-weight: bold;
-  text-align: center;
-  padding: 10px;
-  font-size: 2em;
-}
-
-.parrafo_destinos{
-  text-align: center;
-  padding: 20px 12px;
-}
-
-.img_provincia{
-  display: flex;
-  flex-direction: column;
-  padding: 12px;
-}
-
-.uno{
-  background-color:  rgb(220, 219, 217);
-}
-
-.dos{
-  background-color:  rgb(220, 219, 217);
-}
-
-.tres{
-  background-color:  rgb(220, 219, 217);
-}
-
-
-.card__servicios{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.card__servicios img{
-  height: 150px;
-  width: 100%;
-}
-
-
-
-/*------------------------------------galeria----------------------------------------*/
-
-
-
-.galeria_titulo{
-  background-image: linear-gradient(
-      0deg,
-      rgba(0,0,0,0.5),
-      rgba(0,0,0,0.5)
-  )  
-  ,url(imagenes/Storage1.jpg);
-  height: 100px;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 10px;
-  color: rgb(255, 255, 255);
-}
-
-.galeria_imagenes{
-  display: flex;
-  flex-direction: column;
-  
-}
-
-.galeria_imagenes img{
-  width: 100%;
-  height: 100%;
-  filter: brightness(70%);
-  cursor: pointer;
-}
-
-.galeria_imagenes img:hover{
-  filter: brightness(100%);
-}
-
-img.camion1{
-  padding: 20px 0px 5px;
-}
-
-img.camion2{
-  padding: 5px 0px;
-}
-
-img.camion3{
-  padding: 5px 0px;
-}
-
-img.camion4{
-  padding: 5px 0px;
-}
-
-img.camion5{
-  padding: 5px 0px;
-}
-
-img.camion6{
-  padding: 5px 0px;
-}
-
-
-.video{
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-
-
-
-
-.galeria_img img{
-  width: 100% !important;
-  height: 300px !important;
-  filter: brightness(70%);
-  }
-  
-  .galeria_img img:hover{
-      border: solid 5px rgb(255, 255, 255);
-      filter: brightness(100%);
-  }
-  .camion{
-      margin: 0px !important;
-      padding: 25px;
-  }
-
-
-/*------------------------------------contacto----------------------------------------*/
-
-
-.contacto_titulo{
-  background-image: linear-gradient(
-      0deg,
-      rgba(0,0,0,0.5),
-      rgba(0,0,0,0.5)
-  )  
-  ,url(imagenes/123415.png);
-  height: 100px;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 10px;
-  color: rgb(255, 255, 255);
-}
-
-.comunicate{
-  color: hsl(0, 0%, 50%);
-  font-weight: bold;
-  text-align: center;
-  padding: 100px 10px 10px 10px;
-  font-size: 2em;
-}
-
-.comunicate__parrafo{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
-}
-
-.form_container{
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.form_nombre{
-  background-color: rgb(255, 231, 179);
-  border: none;
-}
-.form_mail{
-  background-color: rgb(255, 231, 179);
-  border: none;
-}
-.form_textarea{
-  background-color: rgb(255, 231, 179);
-  border: none;
-}
-
-.titulo_ubicacion{
-  color: hsl(0, 0%, 50%);
-  font-weight: bold;
-  text-align: center;
-  padding: 10px;
-  font-size: 2em;
-}
-
-.parrafo_video{
-  text-align: center;
-  padding: 20px 12px;
-}
-
-
-.mapa{
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-}
-
-
-
-
-
-
-@media screen and (min-width:768px) {
-
-
-
-  .aside_nosotros img{
-      padding-top: 50px;
-  }
-  .nosotros{
-      display: flex;
-      align-content: center;
-      align-items: center;
-      flex-direction: row;
-  }
-  
-  .nosotros p{
-      padding: 30px;
-      font-size: large;
-  }
-
-
-
-
-
-
-
-.destinos{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.img_provincia{
-  height: 400px;
-  flex-direction: row;
-}
-
-.parrafo_destinos{
-  text-align: justify;
-}
-
-.imagen_servicios{
-  flex-direction: row;
-}
-
-.titulo_destinos{
-  padding-top: 100px;
-}
-
-
-
-img.camion1{
-  padding: 5px 0px 5px;
-}
-
-.boton-enviar{
-  max-width: 500px;
-}
-
-
-
-
-
-.card_nosotros{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-
-
-.card__servicios{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 150px;
-  padding-bottom: 50px;
-  align-items: flex-start;
-}
-
-}

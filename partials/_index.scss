@@ -1,0 +1,84 @@
+
+
+.main__index {
+            max-width: 1400px;
+            margin: auto;
+
+            &__titulo {
+                    background-image: linear-gradient(
+                    0deg,
+                    rgba(0,0,0,0.5),
+                    rgba(0,0,0,0.5)
+                    )  
+                    ,url(imagenes/123.jpg);
+                    height: 100px;
+                    width: 100%;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    @extend %flex;
+                    padding-bottom: 10px;
+                    color: rgb(255, 255, 255);
+            }
+
+            .carousel_index{
+                padding-top: 10px;
+                
+                .boton_prev{
+                    height: auto;
+                }
+                
+                .boton_next{
+                    height: auto;
+                }
+                
+                .primera{
+                    height: 60vh;
+                }
+                
+                .segunda{
+                    height: 60vh;
+                }
+                
+                .tercera{
+                    height: 60vh;
+                }
+            }
+
+                .parrafo_index{
+                    text-align: center;
+                    padding: 100px 12px;
+                }
+        
+                .index_img{
+                    padding-top: 10px;
+        
+                    .envios_titulo{
+                        background-image: linear-gradient(
+                            0deg,
+                            rgba(0,0,0,0.5),
+                            rgba(0,0,0,0.5)
+                        ) 
+                        ,url(imagenes/123.png);
+                        height:70vh;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        @extend %flex;
+                        color: rgb(255, 255, 255);
+                    }
+                }
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: $colorn;
+    height: 30vh;
+    padding: 50px 12px;
+
+    .footer__parrafo{
+        margin: 0px;
+        }
+}
+
+

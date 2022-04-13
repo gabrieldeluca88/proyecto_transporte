@@ -1,0 +1,75 @@
+
+.contacto_titulo{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )  
+    ,url(imagenes/123415.png);
+    height: 100px;
+    width: 100%;
+    background-size: map-get($back, bg-size);
+    background-repeat: map-get($back , bg-r);
+    @extend %flex;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.comunicate{
+    color: $colorg;
+    font-weight: bold;
+    text-align: center;
+    padding: 100px 10px 10px 10px;
+    font-size: 2em;
+}
+
+.comunicate__parrafo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.form_container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .form_nombre{
+        background-color: rgb(255, 231, 179);
+        border: none;
+    }
+    .form_mail{
+        background-color: rgb(255, 231, 179);
+        border: none;
+    }
+    .form_textarea{
+        background-color: rgb(255, 231, 179);
+        border: none;
+    }
+}
+
+
+
+.titulo_ubicacion{
+    color: $colorg;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+}
+
+.parrafo_video{
+    text-align: center;
+    padding: 20px 12px;
+}
+
+
+.mapa{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
