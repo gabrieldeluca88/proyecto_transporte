@@ -1,7 +1,6 @@
 
 
 .main__index {
-            max-width: 1400px;
             margin: auto;
 
             &__titulo {
@@ -19,6 +18,19 @@
                     padding-bottom: 10px;
                     color: rgb(255, 255, 255);
             }
+                    h1 {animation: aparecer 2s;
+                    @keyframes aparecer {
+                        0% {
+                            opacity: 0;
+                            letter-spacing: -0.5em;
+                            filter: blur(12px);                           
+                        }
+                        100% {
+                            opacity: 1;
+                            filter: blur(0px);
+                        }
+                    }
+                }
 
             .carousel_index{
                 padding-top: 10px;
@@ -50,7 +62,7 @@
                 }
         
                 .index_img{
-                    padding-top: 10px;
+                
         
                     .envios_titulo{
                         background-image: linear-gradient(
@@ -66,19 +78,65 @@
                         color: rgb(255, 255, 255);
                     }
                 }
+
+                .seguimiento {
+                    background: linear-gradient(90deg, $colorn, #ffff00ad);
+                
+                    .seguimiento__bloque__titulo {
+                        display: flex;
+                        flex-direction: column;
+                        padding: 10px;
+                        align-items: center;
+                        
+                        h2 {
+                            color:rgb(255, 255, 255);
+                            font-size: 30px;
+                            font-style: italic;
+                            font-weight: bold;
+                        }
+                        }
+                
+                        
+                        .remitoguia {
+                            display: flex;
+                
+                            .remitoguia__img {
+                                width: 100%;
+                                padding: 5px;
+                            }
+                        }
+                
+                        
+                        .seguimiento__formulario {
+                            padding: 5px;
+                
+                            
+                            .seguimiento__numero {
+                                padding-top: 5px;
+                                padding-bottom: 5px;
+                            }
+                        }
+                }
 }
+
+
+
+
 
 
 
 footer {
     text-align: center;
     background-color: $colorn;
-    height: 30vh;
+    height: 40vh;
     padding: 50px 12px;
 
     .footer__parrafo{
         margin: 0px;
         }
 }
+
+
+
 
 

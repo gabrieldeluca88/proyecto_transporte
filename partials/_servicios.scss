@@ -13,6 +13,20 @@
     @extend %flex;
     padding-bottom: 10px;
     color: rgb(255, 255, 255);
+
+    h1 {animation: aparecer 2s;
+        @keyframes aparecer {
+            0% {
+                opacity: 0;
+                letter-spacing: -0.5em;
+                filter: blur(12px);                           
+            }
+            100% {
+                opacity: 1;
+                filter: blur(0px);
+            }
+        }
+    }
 }
 
 
@@ -38,6 +52,18 @@
         @extend %flex;
         margin-bottom: 20px;
         margin-top: 20px;
+    }
+
+    .hs {
+        font-weight: bold
+    }
+
+    .crossdocking {
+        font-weight: bold
+    }
+
+    .inversa {
+        font-weight: bold
     }
 
     img{

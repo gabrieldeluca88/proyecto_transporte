@@ -12,42 +12,43 @@
     <title>Transporte Buenos Aires - Soluciones Logísticas</title>
 </head>
 <body>
-    <div class="container_index">
-
-      <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container_index">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid navbar__principal">
-            <a class="navbar-brand" href="index.html"><img  class= "img-fluid imagen__logo" src="imagenes/tbsas1.png" alt="logo camion"></a>
-            <button class="navbar-toggler boton__hamburgesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <a class="navbar-brand" href="#"><img  class= "img-fluid imagen__logo" src="imagenes/tbsas1.png" alt="logo camion"></a>
+              <button class="navbar-toggler boton__hamburgesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse navbar__completa" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link link__color" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link__color" href="nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link__color" href="servicios.html">Servicios</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link__color" href="galeria.html">Galeria</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link__color" href="contacto.html">Contacto</a>
-                </li>
-              </ul>
-            </div>
+              </button>
+              <div class="collapse navbar-collapse navbar__completa" id="navbarNav">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link link__color" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link link__color" href="nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link link__color" href="servicios.html">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link link__color" href="galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link link__color" href="contacto.html">Contacto</a>
+                      </li>
+                  </ul>
+              </div>
           </div>
-        </nav>
+      </nav>
     </header>
+
 
     <main class="main__index">
         <div class="main__index__titulo">
             <h1 class="titulo">Transporte Buenos Aires</h1>
         </div>
+
         <div id="carouselExampleIndicators" class="carousel slide carousel_index" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -73,14 +74,45 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-          </div>
-            <div class="index_img">
-                <h2 class="envios_titulo">Envios seguros siempre</h2>    
+        </div>
+
+          <div class="seguimiento">
+
+            <div class="seguimiento__bloque">
+              <div class="seguimiento__bloque__titulo">
+                <h2>seguí tu envío</h2>
+                <p>Encontrá el número de seguimiento en la parte superior de tu recibo.</p>
+              </div>
+  
+              <div class="remitoguia">
+                <img class= remitoguia__img src="imagenes/guia.webp" loading=lazy alt="remito guia">
+              </div>
             </div>
-        <div class="parrafo_index">
+  
+            <form action="" class="seguimiento__formulario">
+                <input type="radio" id="html" name="tracking" value="HTML">
+                <label for="html">Remito</label>
+                <input type="radio" id="css" name="tracking" value="CSS">
+                <label for="css">Guía</label>
+                <input type="radio" id="javascript" name="tracking" value="JavaScript">
+                <label for="javascript">Orden de retiro</label>
+                <div class="seguimiento__numero">
+                  <input type="text" class="form-control" placeholder="Nº de seguimiento">
+                </div>
+                <button type="button" class="btn btn-warning boton_enviar">Buscá</button>
+            </form>
+          </div>
+
+
+          <div class="index_img">
+            <h2 class="envios_titulo">Envios seguros siempre</h2>    
+          </div>
+        <div class="container parrafo_index">
             <p class="parrafo">Con más de 20 años de trayectoria, nuestra empresa brinda soluciones de transporte a particulares, pequeñas
             y grandes empresas. Con salidas diarias, nuestro servicio abarca Mar del Plata, C.A.B.A. y Gran Buenos Aires.</p>
         </div>
+
+        
     </main>
 
     <footer>

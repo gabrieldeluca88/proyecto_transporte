@@ -19,3 +19,18 @@ header{
         color:  $colorn !important;
     }    
 }
+
+
+
+
+
+footer {
+    text-align: center;
+    background-color: $colorn;
+    height: 40vh;
+    padding: 50px 12px;
+
+    .footer__parrafo{
+        margin: 0px;
+        }
+}

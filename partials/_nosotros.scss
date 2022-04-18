@@ -11,6 +11,20 @@
     @extend %flex;
     padding-bottom: 10px;
     color: rgb(255, 255, 255);
+
+    h1 {animation: aparecer 2s;
+        @keyframes aparecer {
+            0% {
+                opacity: 0;
+                letter-spacing: -0.5em;
+                filter: blur(12px);                           
+            }
+            100% {
+                opacity: 1;
+                filter: blur(0px);
+            }
+        }
+    }
 }
 
 
@@ -20,8 +34,11 @@
     padding-top:100px;
     padding-bottom: 100px;
     
+    
+    
     .parrafo_nosotros{
-        padding: 50px 12px;
+        padding: 50px 20px;
+        text-align: justify;
     }
     
     .aside_nosotros{
@@ -34,13 +51,21 @@
     @extend %flex;
     flex-direction: column;
 
-    .card__nosotros__uno{
+    .card__nosotros__uno {
         margin-bottom: 20px;
     }
     
-    .card__nosotros__dos{
+    .card__nosotros__dos {
         margin-bottom: 20px;
     }
 
+    .seguros {
+        font-weight: bold;
+    }
+
+    .flota {
+        font-weight: bold;
+    }
 }
+
 
