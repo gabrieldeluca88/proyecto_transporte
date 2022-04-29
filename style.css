@@ -13,7 +13,7 @@
 
 header .imagen__logo {
   height: 100px;
-  width: 150px;
+  width: 200px;
   padding-top: 10px;
 }
 
@@ -33,12 +33,50 @@ header .link__color:hover {
 footer {
   text-align: center;
   background-color: #ff9102;
-  height: 40vh;
-  padding: 50px 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px 10px 30px 10px;
+}
+
+footer ul {
+  padding: 0px;
+}
+
+footer a {
+  color: var(--bs-body-color);
+  font-size: 20px;
 }
 
 footer .footer__parrafo {
   margin: 0px;
+  padding: 10px 0px;
+}
+
+footer .footer__accesos {
+  display: none;
+}
+
+footer .footer__redes {
+  padding: 20px 0px;
+}
+
+footer h3 {
+  font-weight: bold;
+  color: black;
+}
+
+footer .footer__logo {
+  padding: 10px;
+}
+
+footer .footer__logo .logo_f {
+  height: 100px;
+  width: 200px;
 }
 
 .nosotros_titulo {
@@ -263,8 +301,14 @@ footer .footer__parrafo {
   }
 }
 
+.galeria_img {
+  margin-right: 0px;
+  padding-top: 30px;
+  padding-left: 12px;
+}
+
 .galeria_img img.camion1 {
-  padding: 20px 0px 5px;
+  padding: 5px 0px;
 }
 
 .galeria_img img.camion2 {
@@ -302,7 +346,6 @@ footer .footer__parrafo {
 
 .galeria_img .camion {
   margin: 0px !important;
-  padding: 25px;
 }
 
 .video {
@@ -312,7 +355,7 @@ footer .footer__parrafo {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 20px 10px 40px 10px;
+  padding: 20px 12px 40px 12px;
 }
 
 .contacto_titulo {
@@ -447,15 +490,15 @@ footer .footer__parrafo {
 }
 
 .main__index .carousel_index .primera {
-  height: 60vh;
+  height: 35vh;
 }
 
 .main__index .carousel_index .segunda {
-  height: 60vh;
+  height: 35vh;
 }
 
 .main__index .carousel_index .tercera {
-  height: 60vh;
+  height: 35vh;
 }
 
 .main__index .parrafo_index {
@@ -518,18 +561,16 @@ footer .footer__parrafo {
   padding-bottom: 5px;
 }
 
-footer {
-  text-align: center;
-  background-color: #ff9102;
-  height: 40vh;
-  padding: 50px 12px;
-}
-
-footer .footer__parrafo {
-  margin: 0px;
-}
-
 @media screen and (min-width: 768px) {
+  .carousel_index .primera {
+    height: 60vh !important;
+  }
+  .carousel_index .segunda {
+    height: 60vh !important;
+  }
+  .carousel_index .tercera {
+    height: 60vh !important;
+  }
   .seguimiento {
     background: -webkit-gradient(linear, left top, right top, from(#ff9102), to(#ffff00ad));
     background: linear-gradient(90deg, #ff9102, #ffff00ad);
@@ -641,8 +682,8 @@ footer .footer__parrafo {
   .titulo_destinos {
     padding-top: 100px;
   }
-  img.camion1 {
-    padding: 5px 0px !important;
+  .galeria_img {
+    padding-left: 12px;
   }
   .boton-enviar {
     max-width: 500px;
@@ -706,6 +747,56 @@ footer .footer__parrafo {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+  .galeria_img img.camion1 {
+    padding: 12px 0px;
+  }
+  .galeria_img img.camion2 {
+    padding: 12px 0px;
+  }
+  .galeria_img img.camion3 {
+    padding: 12px 0px;
+  }
+  .galeria_img img.camion4 {
+    padding: 12px 0px;
+  }
+  .galeria_img img.camion5 {
+    padding: 12px 0px;
+  }
+  .galeria_img img.camion6 {
+    padding: 12px 0px;
+  }
+  footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer a:hover {
+    color: white;
+  }
+  footer .footer__accesos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footer__escritorio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 

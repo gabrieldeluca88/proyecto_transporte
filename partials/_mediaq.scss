@@ -2,7 +2,20 @@
 
 @media screen and (min-width:768px) {
 
+    .carousel_index{
 
+        .primera{
+            height: 60vh !important;
+        }
+        
+        .segunda{
+            height: 60vh !important;
+        }
+        
+        .tercera{
+            height: 60vh !important;
+        }
+    }
 
 
     .seguimiento {
@@ -110,8 +123,10 @@
 
 
 
-img.camion1{
-    padding: 5px 0px !important;
+
+
+.galeria_img{
+    padding-left: 12px;
 }
 
 
@@ -172,4 +187,50 @@ img.camion1{
     flex-direction: row;
 }
 
+
+.galeria_img{
+
+
+    img.camion1{
+    padding: 12px 0px;
+    }
+    img.camion2{
+    padding: 12px 0px;
+    }
+    img.camion3{
+    padding: 12px 0px;
+    }
+    img.camion4{
+    padding: 12px 0px;
+    }
+    img.camion5{
+    padding: 12px 0px;
+    }
+    img.camion6{
+    padding: 12px 0px;
+    }
+}
+
+
+footer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    a {
+        &:hover{
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    .footer__accesos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__escritorio{
+        display: flex;
+        flex-direction: column;
+    }
+}
 }

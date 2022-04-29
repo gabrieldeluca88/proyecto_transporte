@@ -12,118 +12,145 @@
     <title>Transporte Buenos Aires - Soluciones Logísticas</title>
 </head>
 <body>
-<div class="container_index">
+  <div class="container_index">
     <header class="header">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid navbar__principal">
-              <a class="navbar-brand" href="#"><img  class= "img-fluid imagen__logo" src="imagenes/tbsas1.png" alt="logo camion"></a>
-              <button class="navbar-toggler boton__hamburgesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse navbar__completa" id="navbarNav">
-                  <ul class="navbar-nav">
-                      <li class="nav-item">
-                          <a class="nav-link link__color" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link link__color" href="nosotros.html">Nosotros</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link link__color" href="servicios.html">Servicios</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link link__color" href="galeria.html">Galeria</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link link__color" href="contacto.html">Contacto</a>
-                      </li>
-                  </ul>
-              </div>
+        <div class="container-fluid navbar__principal">
+          <a class="navbar-brand" href="index.html"><img  class= "img-fluid imagen__logo" src="imagenes/tbsas1.png" alt="logo camion"></a>
+          <button class="navbar-toggler boton__hamburgesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar__completa" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link link__color" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link__color" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link__color" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link__color" href="galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link__color" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
           </div>
+        </div>
       </nav>
     </header>
 
 
     <main class="main__index">
-        <div class="main__index__titulo">
-            <h1 class="titulo">Transporte Buenos Aires</h1>
+      <div class="main__index__titulo">
+        <h1 class="titulo">Transporte Buenos Aires</h1>
+      </div>
+
+      <div id="carouselExampleIndicators" class="carousel slide carousel_index" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-
-        <div id="carouselExampleIndicators" class="carousel slide carousel_index" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="imagenes/volvo-trucks-volvo-fh-long-haul.webp" class="d-block w-100 primera" alt="camion en carretera">
-              </div>
-              <div class="carousel-item">
-                <img src="imagenes/scania1.jpg" class="d-block w-100 segunda" alt="camion en el campo ">
-              </div>
-              <div class="carousel-item">
-                <img src="imagenes/456789456.jpg" class="d-block w-100 tercera" alt="camion blanco en la ciudad">
-              </div>
-            </div>
-            <button class="carousel-control-prev boton_prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next boton_next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-
-          <div class="seguimiento">
-
-            <div class="seguimiento__bloque">
-              <div class="seguimiento__bloque__titulo">
-                <h2>seguí tu envío</h2>
-                <p>Encontrá el número de seguimiento en la parte superior de tu recibo.</p>
-              </div>
-  
-              <div class="remitoguia">
-                <img class= remitoguia__img src="imagenes/guia.webp" loading=lazy alt="remito guia">
-              </div>
-            </div>
-  
-            <form action="" class="seguimiento__formulario">
-                <input type="radio" id="html" name="tracking" value="HTML">
-                <label for="html">Remito</label>
-                <input type="radio" id="css" name="tracking" value="CSS">
-                <label for="css">Guía</label>
-                <input type="radio" id="javascript" name="tracking" value="JavaScript">
-                <label for="javascript">Orden de retiro</label>
-                <div class="seguimiento__numero">
-                  <input type="text" class="form-control" placeholder="Nº de seguimiento">
-                </div>
-                <button type="button" class="btn btn-warning boton_enviar">Buscá</button>
-            </form>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/volvo-trucks-volvo-fh-long-haul.webp" class="d-block w-100 primera" alt="camion en carretera">
           </div>
-
-
-          <div class="index_img">
-            <h2 class="envios_titulo">Envios seguros siempre</h2>    
+          <div class="carousel-item">
+            <img src="imagenes/scania1.jpg" class="d-block w-100 segunda" alt="camion en el campo ">
           </div>
-        <div class="container parrafo_index">
-            <p class="parrafo">Con más de 20 años de trayectoria, nuestra empresa brinda soluciones de transporte a particulares, pequeñas
-            y grandes empresas. Con salidas diarias, nuestro servicio abarca Mar del Plata, C.A.B.A. y Gran Buenos Aires.</p>
+          <div class="carousel-item">
+            <img src="imagenes/456789456.jpg" class="d-block w-100 tercera" alt="camion blanco en la ciudad">
+          </div>
         </div>
+        <button class="carousel-control-prev boton_prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next boton_next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
+      <div class="seguimiento">
+        <div class="seguimiento__bloque">
+          <div class="seguimiento__bloque__titulo">
+            <h2>seguí tu envío</h2>
+            <p>Encontrá el número de seguimiento en la parte superior de tu recibo.</p>
+          </div>
+          
+          <div class="remitoguia">
+            <img class= remitoguia__img src="imagenes/guia.webp" loading=lazy alt="remito guia">
+          </div>
+        </div>
         
+        <form action="" class="seguimiento__formulario">
+          <input type="radio" id="remito" name="tracking" value="remito">
+          <label for="remito">Remito</label>
+          <input type="radio" id="guia" name="tracking" value="guia">
+          <label for="guia">Guía</label>
+          <input type="radio" id="orden" name="tracking" value="orden">
+          <label for="orden">Orden de retiro</label>
+          <div class="seguimiento__numero">
+            <input type="text" class="form-control" placeholder="Nº de seguimiento">
+          </div>
+          <button type="button" class="btn btn-warning boton_enviar">Buscá</button>
+        </form>
+      </div>
+
+
+      <div class="index_img">
+        <h2 class="envios_titulo">Envios seguros siempre</h2>    
+      </div>
+      <div class="container parrafo_index">
+        <p class="parrafo">Con más de 20 años de trayectoria, nuestra empresa brinda soluciones de transporte a particulares, pequeñas y grandes empresas. Con salidas diarias, nuestro servicio abarca Mar del Plata, C.A.B.A. y Gran Buenos Aires.</p>
+      </div>
     </main>
 
     <footer>
+      <div class="footer__escritorio">
+        <div class="footer__logo">
+          <a href="index.html"><img  class= "img-fluid logo_f" src="imagenes/tbsas1b.png" alt="logo camion gris"></a>
+        </div>
+        <div class="footer__accesos">
+          <ul>
+            <li>
+              <a href="nosotros.html">Nosotros</a>
+            </li>
+            <li>
+              <a href="servicios.html">Servicios</a>
+            </li>
+            <li>
+              <a href="galeria.html">Galeria</a>
+            </li>
+            <li>
+              <a href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__redes">
         <p class="footer__parrafo">seguinos en nuestras redes</p>
         <a href="https://www.instagram.com"><img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png"/></a>
         <a href="https://www.facebook.com"><img src="https://img.icons8.com/ios-glyphs/30/000000/facebook.png"/></a>
         <a href="https://www.twitter.com"><img src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png"/></a>
         <a href="https://www.youtube.com"><img src="https://img.icons8.com/ios-glyphs/30/000000/youtube-play.png"/></a>
         <p class="footer__parrafo">Transporte Buenos Aires © Todos los derechos reservados</p>
+      </div>
+
+      <div class="footer__contacto">
+        <h3>Centro de contacto</h3>
+        <p>0810-888-8888</p>
+        <p>Lunes a viernes de 9 a 19hs.</p>
+        <p>Sábados de 9 a 13hs</p>
+      </div>
     </footer>   
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
