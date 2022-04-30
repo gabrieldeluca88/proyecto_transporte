@@ -154,8 +154,16 @@ footer .footer__logo .logo_f {
   margin-bottom: 20px;
 }
 
+.card__nosotros .card__nosotros__uno img {
+  height: 160px;
+}
+
 .card__nosotros .card__nosotros__dos {
   margin-bottom: 20px;
+}
+
+.card__nosotros .card__nosotros__dos img {
+  height: 160px;
 }
 
 .card__nosotros .seguros {
