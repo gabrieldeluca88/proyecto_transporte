@@ -130,7 +130,7 @@ footer .footer__logo .logo_f {
 
 .nosotros .parrafo_nosotros {
   padding: 50px 20px;
-  text-align: justify;
+  text-align: center;
 }
 
 .nosotros .aside_nosotros {
@@ -660,6 +660,9 @@ footer .footer__logo .logo_f {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .nosotros .parrafo_nosotros {
+    text-align: justify;
   }
   .nosotros p {
     padding: 30px;

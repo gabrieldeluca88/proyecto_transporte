@@ -87,6 +87,10 @@
         align-content: center;
         align-items: center;
         flex-direction: column;
+
+        .parrafo_nosotros{
+            text-align: justify;
+        }
     }
     
     .nosotros p{
